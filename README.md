@@ -54,3 +54,9 @@ the classic JavaBean Class need the following
 - params need use private
 - needs constructor includes 无参数构造（default by JVM） 和 带全部参数的构造
 - getter and setter
+
+
+OOP Storage in RAM:
+![image](./public/oopStrorage.png)
+
+

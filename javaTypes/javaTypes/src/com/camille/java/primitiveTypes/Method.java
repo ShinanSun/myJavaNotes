@@ -4,6 +4,7 @@ public class Method {
     public static void main(String[] args) {
         operators();
         System.out.println(sum(3, 77));
+        getSomeStrings();
     }
 
     public static void operators() {
@@ -16,6 +17,22 @@ public class Method {
 
     public static int sum(int x, int y) {
         return x + y;
+    }
 
+    public static void getSomeStrings() {
+        char[] chars = {'a', 'b', 'c'};
+        String s1 = new String(chars);
+        String s2 = new String(chars);
+
+        byte[] myChars = {97, 98, 99};
+
+        String s3 = new String(myChars);
+        System.out.println(chars);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
+
+        int[] numbers = {1, 2, 3};
+        System.out.println(numbers);
     }
 }
