@@ -44,3 +44,13 @@ java keywords: those are 51 reserved words.
 Method overloading: same method name, different parameters that Java will decide which method to run. we can change 
 the parameters to make the method unique, not by changing the return type,
  
+### OOP (Object Oriented Programming) 面向对象
+- class： recipe, class creation (javabean)
+- object: 
+- instance: new XXX() 
+
+
+the classic JavaBean Class need the following
+- params need use private
+- needs constructor includes 无参数构造（default by JVM） 和 带全部参数的构造
+- getter and setter
