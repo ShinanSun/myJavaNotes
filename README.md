@@ -20,7 +20,7 @@ Camille Java Notes
 
 其他所有都是 =》 引用数据类型，e.g array， string
 引用数据类型存储是地址值。
-![Screenshot 2023-06-18 at 7.42.16 PM.png](..%2F..%2F..%2Fvar%2Ffolders%2F7z%2Fz3sj9gfj4qs2y8x72_lkrbgw0000gr%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_KxGWsQ%2FScreenshot%202023-06-18%20at%207.42.16%20PM.png)
+![image](./public/storage.png)
 
 类型转换 vs 强制转换
 小的可以转大的， 大的不能轻易转小的。 强制转换需要casting
