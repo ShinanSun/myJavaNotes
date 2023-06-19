@@ -21,6 +21,7 @@ public class Method {
 
     public static void getSomeStrings() {
         char[] chars = {'a', 'b', 'c'};
+        String s0 = new String(); // print ""
         String s1 = new String(chars);
         String s2 = new String(chars);
 

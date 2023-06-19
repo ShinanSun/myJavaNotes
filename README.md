@@ -60,3 +60,30 @@ OOP Storage in RAM:
 ![image](./public/oopStrorage.png)
 
 
+
+### Array vs ArrayList
+Regular Array: 
+```agsl
+int[] arr = new int[3];
+固定的长度3， 固定的type int， 可以存储primitive type 和 引用类型
+```
+ArrayList
+```agsl
+ArrayList<String> list = new ArrayList<>(); 
+没有固定长度， 可以加可以删， 只能存引用类型。 如果要存primitive type 需要。。
+list.add("some");
+list.add("other");
+list.remove(1);
+
+```
+
+### Static
+
+static in class params `private static String teacherName = "Sam";`
+can be shared by all class instances.
+可以直接被class 叫
+
+权限修饰符
+![image](./public/private.png)
+
+
