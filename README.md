@@ -87,3 +87,44 @@ can be shared by all class instances.
 ![image](./public/private.png)
 
 
+### Final
+- final method: 最终方法， 不能被override
+- final class: 最终class， 不能再有child class， 不能被inherit
+- final param: 常量， 只能被assign一次
+
+
+
+### Polymorphism
+Parent p = new Child();
+- 2 个class 有继承关系
+- parent class 指向 child class
+
+### abstract class
+make the parent method an abstract method. 
+```agsl
+public abstract class Person{
+    
+    public abstract void work();
+    
+    public abstract boolean isOff(String day);
+    
+}
+```
+![image](./public/abstract.png)
+
+
+### oop-Interface
+define some rules. 规则定义。
+![image](./public/interface.png)
+
+- Interface parameter must be `public static final` (by default)
+- Interface doesn't have constructors
+- all interface methods
+  - `abstract method` must be override in child class when implements.
+  - 或者 `default mothod`可以override，也可以不用override， 不强制。
+  - or `static method` cannot be override. Can be user directly by Interface.method();
+  - 或者 `private method` can only be used inside of interface class. 
+
+inner class??
+![image](./public/inner.png)
+
